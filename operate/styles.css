@@ -1,0 +1,17 @@
+.button{
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 0 0 0 0;
+    -fx-border-radius: 0;
+    -fx-background-color: #E0E0E0;
+}
+.button:hover{
+    -fx-background-color: #C0C0C0;
+}
+#f4{
+    -fx-background-color: #E0E0E0;
+}
+.pagination-control {
+    -fx-font-size: 20px;
+}
+
+

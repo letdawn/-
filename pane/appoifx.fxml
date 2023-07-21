@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Pagination?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pane.Appoifxco">
+   <children>
+      <Pagination fx:id="pa" layoutY="107.0" prefHeight="440.0" prefWidth="735.0" stylesheets="@../operate/styles.css" />
+      <Pane fx:id="top" prefHeight="108.0" prefWidth="735.0">
+         <children>
+            <Pane layoutY="61.0" prefHeight="47.0" prefWidth="735.0" style="-fx-background-color: rgb(233,233,233);">
+               <children>
+                  <Label alignment="CENTER" prefHeight="47.0" prefWidth="105.0" style="-fx-border-width: 1;" text="姓名">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="105.0" prefHeight="47.0" prefWidth="126.0" style="-fx-border-width: 1;" text="所属科室">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="242.0" prefHeight="47.0" prefWidth="215.0" style="-fx-border-width: 1;" text="联系方式">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="446.0" prefHeight="47.0" prefWidth="105.0" style="-fx-border-width: 1;" text="职称">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <ChoiceBox fx:id="kscho" layoutX="354.0" layoutY="10.0" prefHeight="47.0" prefWidth="105.0" />
+            <TextField fx:id="text1" layoutX="95.0" layoutY="16.0" prefHeight="47.0" prefWidth="126.0" />
+            <Button layoutX="228.0" layoutY="21.0" mnemonicParsing="false" onAction="#search1" prefHeight="36.0" prefWidth="69.0" text="搜索">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label layoutY="21.0" prefHeight="36.0" prefWidth="95.0" text="医生姓名：">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="ttcho" layoutX="502.0" layoutY="10.0" prefHeight="47.0" prefWidth="105.0" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

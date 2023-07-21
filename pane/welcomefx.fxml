@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="welcome" prefHeight="548.0" prefWidth="735.0" style="-fx-background-color: rgb(66,109,165);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pane.Welcomefxco">
+   <children>
+      <ImageView fitHeight="548.0" fitWidth="735.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../operate/d21ae0027b31fdedec724f565be8ea65.jpeg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="201.0" layoutY="41.0" prefHeight="55.0" prefWidth="269.0" text="欢迎访问智慧预约系统" textFill="RED">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
